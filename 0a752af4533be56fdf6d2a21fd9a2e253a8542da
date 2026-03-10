@@ -1,0 +1,23 @@
+skills/design-cicd-gcp/SKILL.md
+  3139099ed67d0ea7 1-2,4-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "0a752af4533be56fdf6d2a21fd9a2e253a8542da",
+  "prompts": {
+    "3139099ed67d0ea7": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "4ea208ed-61ea-4f7b-a8a0-71fe98e5bc2b",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Yeshwanth Gunasekaran <yesh@google.com>",
+      "messages": [],
+      "total_additions": 65,
+      "total_deletions": 2,
+      "accepted_lines": 62,
+      "overriden_lines": 1
+    }
+  }
+}
