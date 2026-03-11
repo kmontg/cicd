@@ -1,0 +1,25 @@
+skills/gcp-cicd-design/SKILL.md
+  6a8dd692b34ba201 34,36-49
+skills/gcp-cicd-terraform/SKILL.md
+  6a8dd692b34ba201 96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "0b293277eb99df9d0c56030620baa57144d1b18b",
+  "prompts": {
+    "6a8dd692b34ba201": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "c7481e6b-b6a7-452f-a8ad-fc86d16744f4",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Yeshwanth Gunasekaran <yesh@google.com>",
+      "messages": [],
+      "total_additions": 27,
+      "total_deletions": 16,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    }
+  }
+}
