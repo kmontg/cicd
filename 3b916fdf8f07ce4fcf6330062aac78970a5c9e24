@@ -1,0 +1,33 @@
+.github/workflows/nightly-release.yml
+  ffc5186ca225bac0 81-83,87-88,92,114
+devops-mcp-server/server.go
+  ffc5186ca225bac0 49
+build.sh
+  ffc5186ca225bac0 69-72,76-77
+gemini-extension.json
+  ffc5186ca225bac0 3
+VERSION
+  ffc5186ca225bac0 1
+.github/workflows/release.yml
+  ffc5186ca225bac0 82-91,118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "3b916fdf8f07ce4fcf6330062aac78970a5c9e24",
+  "prompts": {
+    "ffc5186ca225bac0": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "4953734c-15b6-4001-bc65-8bfe94dea6ab",
+        "model": "gemini-3.1-pro-preview"
+      },
+      "human_author": "Haroon Chaudhry <haroonc@google.com>",
+      "messages": [],
+      "total_additions": 31,
+      "total_deletions": 15,
+      "accepted_lines": 28,
+      "overriden_lines": 0
+    }
+  }
+}

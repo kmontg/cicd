@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "a67edf75e63f1c4284b57801fe927db9daa092b0",
+  "prompts": {
+    "ffc5186ca225bac0": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "4953734c-15b6-4001-bc65-8bfe94dea6ab",
+        "model": "gemini-3.1-pro-preview"
+      },
+      "human_author": "Haroon Chaudhry <haroonc@google.com>",
+      "messages": [],
+      "total_additions": 51,
+      "total_deletions": 0,
+      "accepted_lines": 51,
+      "overriden_lines": 0
+    }
+  }
+}
