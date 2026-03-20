@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "042e45fdbcd6df6f574f204aea9213c35c1d849d",
+  "prompts": {
+    "2093f4a46c46affc": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "c96cd77f-0551-46c3-bf6d-4e54957435b8",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 2,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
