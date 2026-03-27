@@ -1,0 +1,27 @@
+skills/gcp-cicd-deploy/SKILL.md
+  aa67c4f574d5ae4a 29,32,72-87
+skills/gcp-cicd-deploy/references/how_to_deploy_to_gke_with_kubectl.md
+  aa67c4f574d5ae4a 1-98
+cicd-mcp-server/prompts/deploy_prompt.md
+  aa67c4f574d5ae4a 8,10-11,50-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "4ec17aa392bcf1b8511fffe0bf54fefb3821d526",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 138,
+      "total_deletions": 14,
+      "accepted_lines": 137,
+      "overriden_lines": 0
+    }
+  }
+}
