@@ -1,0 +1,27 @@
+devops-mcp-server/integration_tests/main.go
+  aa67c4f574d5ae4a 45,74,110
+devops-mcp-server/prompts/deploy_prompt.md
+  aa67c4f574d5ae4a 20-24
+skills/gcp-cicd-deploy/SKILL.md
+  aa67c4f574d5ae4a 41-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "e816176f874888bded94dc10a90e5ce550bb5f33",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 13,
+      "total_deletions": 29,
+      "accepted_lines": 13,
+      "overriden_lines": 0
+    }
+  }
+}
