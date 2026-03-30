@@ -1,0 +1,25 @@
+cicd-mcp-server/cloudbuild/cloudbuild_test.go
+  aa67c4f574d5ae4a 57-60,62-63
+cicd-mcp-server/cloudbuild/cloudbuild.go
+  aa67c4f574d5ae4a 94,103-106,109,125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "2af37064d6741b6ef7e9addefac934201eb5d8a7",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 13,
+      "total_deletions": 29,
+      "accepted_lines": 13,
+      "overriden_lines": 0
+    }
+  }
+}
