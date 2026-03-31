@@ -1,0 +1,23 @@
+cicd-mcp-server/go.mod
+  aa67c4f574d5ae4a 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "36efd89ead2ee037713b7e8f428a6d8c6341aee4",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 2,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
