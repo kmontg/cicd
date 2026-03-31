@@ -1,0 +1,25 @@
+skills/google-cicd-deploy/SKILL.md
+  aa67c4f574d5ae4a 43,68,79,85,90-91
+cicd-mcp-server/prompts/deploy_prompt.md
+  aa67c4f574d5ae4a 22,46,57,63,68-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "daf25f118e85b8a6e5f3b1306715d24c64474e09",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 12,
+      "accepted_lines": 12,
+      "overriden_lines": 0
+    }
+  }
+}
