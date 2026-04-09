@@ -1,0 +1,23 @@
+skills/gcp-cicd-design/references/how_to_create_cloudbuild_trigger.md
+  aa67c4f574d5ae4a 7,13,17,24,33,43-54,57,59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "03fb29c33ed0959c66c20fa9a7a53561ee07d3fc",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 20,
+      "total_deletions": 8,
+      "accepted_lines": 19,
+      "overriden_lines": 0
+    }
+  }
+}

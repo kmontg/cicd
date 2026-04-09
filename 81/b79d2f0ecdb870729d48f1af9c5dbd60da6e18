@@ -1,0 +1,27 @@
+cicd-mcp-server/go.mod
+  aa67c4f574d5ae4a 22
+local-kb-index-builder/go.mod
+  aa67c4f574d5ae4a 47,50,52
+cicd-mcp-server/cloudbuild.yaml
+  aa67c4f574d5ae4a 17,34,49,64,79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "81b79d2f0ecdb870729d48f1af9c5dbd60da6e18",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 15,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
