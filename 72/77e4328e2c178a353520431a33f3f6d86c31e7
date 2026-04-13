@@ -1,0 +1,25 @@
+skills/gcp-cicd-deploy/references/how_to_deploy_to_gcs_with_gcloud.md
+  aa67c4f574d5ae4a 1-78
+skills/gcp-cicd-deploy/SKILL.md
+  aa67c4f574d5ae4a 41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "7277e4328e2c178a353520431a33f3f6d86c31e7",
+  "prompts": {
+    "aa67c4f574d5ae4a": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "2bf93003-e5d1-4953-a12e-83be683283ac",
+        "model": "gemini-3-flash-preview"
+      },
+      "human_author": "Alex Dou <alexdou@google.com>",
+      "messages": [],
+      "total_additions": 79,
+      "total_deletions": 1,
+      "accepted_lines": 79,
+      "overriden_lines": 0
+    }
+  }
+}

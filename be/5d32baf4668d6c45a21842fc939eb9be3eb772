@@ -1,0 +1,34 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "be5d32baf4668d6c45a21842fc939eb9be3eb772",
+  "prompts": {
+    "3312132e75e5a962": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "a16baa50-a7a0-421c-8a4e-fbf1cf4d7cba",
+        "model": "gemini-3.1-pro-preview"
+      },
+      "human_author": "Haroon Chaudhry <haroonc@google.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    },
+    "ee5ca24f78a5cc3c": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "4a66aad5-e86e-45ab-a22b-656cd43e486b",
+        "model": "gemini-3.1-pro-preview"
+      },
+      "human_author": "Haroon Chaudhry <haroonc@google.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 115,
+      "overriden_lines": 0
+    }
+  }
+}

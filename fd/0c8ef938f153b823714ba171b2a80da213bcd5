@@ -1,0 +1,40 @@
+README.md
+  0560ccb9c38b21b7 17-21,70-72,75,91-95
+devops-mcp-server/REFERENCE.md
+  0560ccb9c38b21b7 38,49-71
+devops-mcp-server/README.md
+  0560ccb9c38b21b7 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "fd0c8ef938f153b823714ba171b2a80da213bcd5",
+  "prompts": {
+    "0560ccb9c38b21b7": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "433d8bce-abf5-4786-b7a4-47fa262cd7d8",
+        "model": "gemini-3.1-pro-preview"
+      },
+      "human_author": "Haroon Chaudhry <haroonc@google.com>",
+      "messages": [],
+      "total_additions": 41,
+      "total_deletions": 8,
+      "accepted_lines": 41,
+      "overriden_lines": 0
+    },
+    "ee5ca24f78a5cc3c": {
+      "agent_id": {
+        "tool": "gemini",
+        "id": "4a66aad5-e86e-45ab-a22b-656cd43e486b",
+        "model": "gemini-3.1-pro-preview"
+      },
+      "human_author": "Haroon Chaudhry <haroonc@google.com>",
+      "messages": [],
+      "total_additions": 218,
+      "total_deletions": 97,
+      "accepted_lines": 121,
+      "overriden_lines": 0
+    }
+  }
+}
