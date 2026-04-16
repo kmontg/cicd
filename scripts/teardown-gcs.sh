@@ -14,16 +14,25 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Check if GCS_BUCKET is set
-if [ -z "$GCS_BUCKET" ]; then
-  echo "Error: GCS_BUCKET environment variable is not set" >&2
-  exit 1
-fi
+# Get bucket from argument or environment variable
+GCS_BUCKET="${1:-$GCS_BUCKET}"
+PROJECT_ID="${2:-$PROJECT_ID}"
+
+# Strip gs:// prefix if present
+GCS_BUCKET="${GCS_BUCKET#gs://}"
 
 PROJECT_ARG=""
 if [ -n "$PROJECT_ID" ]; then
   PROJECT_ARG="--project=$PROJECT_ID"
 fi
+
+if [ -z "$GCS_BUCKET" ]; then
+  echo "Error: GCS bucket name not provided as argument and GCS_BUCKET environment variable is not set" >&2
+  echo "Usage: $0 [bucket_name]" >&2
+  exit 1
+fi
+
+
 
 # Attempt to delete the bucket and its contents
 # We use gcloud storage rm -r to delete objects.
@@ -31,7 +40,7 @@ fi
 gcloud storage rm -r gs://$GCS_BUCKET/** $PROJECT_ARG &> /dev/null
 
 # Delete the bucket
-gcloud storage buckets delete gs://$GCS_BUCKET $PROJECT_ARG --quiet &> /dev/null
+gcloud storage buckets delete gs://$GCS_BUCKET --quiet $PROJECT_ARG &> /dev/null
 
 # Check if the bucket still exists
 if gcloud storage buckets describe gs://$GCS_BUCKET $PROJECT_ARG &> /dev/null; then
